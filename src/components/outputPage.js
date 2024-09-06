@@ -8,48 +8,48 @@ const PageContainer = styled.div`
   align-items: center;
   padding: 40px;
   font-family: 'Arial, sans-serif';
-  background-color: #f4f4f9;
+  background-color: #FFFFFF;
   min-height: 100vh;
 `;
 
 const Section = styled.div`
   margin: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #154734;
   border-radius: 8px;
   width: 80%;
   max-width: 600px;
 `;
 
 const Title = styled.h2`
-  color: #333;
+  color: #154734;
   margin-bottom: 15px;
 `;
 
 const Text = styled.p`
-  color: #666;
+  color: #154734;
   font-size: 16px;
 `;
 
 const InfoBox = styled.div`
   background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 10px;
+  border: 1px solid #154734;
+  padding: 8px;
   margin-top: 10px;
   border-radius: 4px;
-  width: 100%;
+  width: 95%;
 `;
 
 const InfoTitle = styled.h4`
   margin: 0;
-  color: #444;
+  color: #154734;
   font-size: 14px;
 `;
 
 const InfoContent = styled.p`
   margin: 5px 0 0;
   font-size: 12px;
-  color: #666;
+  color: #be4300;
 `;
 
 const OutputPage = () => {

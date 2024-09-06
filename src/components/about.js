@@ -10,12 +10,12 @@ const PageContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  color: #333;
+  color: #154734;
   font-size: 24px;
 `;
 
 const SubTitle = styled.h2`
-  color: #555;
+  color: #be4300;
   font-size: 20px;
 `;
 

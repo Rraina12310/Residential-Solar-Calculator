@@ -5,10 +5,10 @@
 
 .backgroundImage {
     position: absolute;
-    top: 3vh;
+    top: 5vh;
     opacity: 80%;
     z-index: -1;
-    max-width: 100%;
+    width: 100px;
     height: auto;
 }
 

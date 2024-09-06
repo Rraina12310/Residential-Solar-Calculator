@@ -1,23 +1,70 @@
-.App {
-  text-align: center;
+/* Reset default margins and paddings on body and html */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+  background-color: #FFFFFF; /* White background */
+  box-sizing: border-box;
 }
 
-.nav {
-  background: #919191;
-  padding: 3vh;
+/* Page container with thicker top and bottom borders */
+.page-container {
+  border-top: 50px solid #154734;  /* Thick top border */
+  border-bottom: 50px solid #154734; /* Thick bottom border */
+  border-left: 30px solid #154734;  /* Thinner left border */
+  border-right: 30px solid #154734; /* Thinner right border */
+  padding: 0; /* No extra padding */
+  margin: 0 auto; /* Center the content */
+  width: calc(100% - 40px); /* Adjust width for side borders (20px each) */
+  min-height: calc(100vh - 100px); /* Adjust height for top/bottom borders (50px each) */
+  background-color: #FFFFFF; /* White background inside the borders */
+  box-sizing: border-box; /* Include borders in size calculation */
   display: flex;
-  height: 3vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+/* Navigation styling remains unchanged */
+.nav {
+  background: #154734;
+  padding: 7vh;
+  display: flex;
+  height: auto; /* Remove height constraints to allow for responsive height */
+}
+
+.MainHeader {
+  font-size: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0;
+}
+
+.app-logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  margin-top: -35px; /* Adjust as necessary */
+}
+
 .nav a {
   color: #ffffff;
   text-decoration: none;
   font-size: 1.5vw;
   margin-top: auto;
-  margin-right: 2vh;
+  margin-right: 4vh;
 }
 
 .nav a:hover {
   transform: scale(1.1);
   color: #ffc247;
   text-shadow: 0 0 10px;
+}
+
+/* Inner content section that fills the remaining space inside the borders */
+.inner-content {
+  padding: 20px; /* Add padding inside the content */
+  background-color: #FFFFFF;
+  flex: 1; /* Allow content to grow and fill the available space */
+  box-sizing: border-box;
 }

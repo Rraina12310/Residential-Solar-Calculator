@@ -9,12 +9,12 @@ const Container = styled.div`
   align-items: center;
   padding: 40px;
   font-family: 'Arial, sans-serif';
-  background-color: #f4f4f9;
+  background-color: ##FFFFFF;
   min-height: 100vh;
 `;
 
 const Title = styled.h1`
-  color: #333;
+  color: #154734;
   margin-bottom: 20px;
 `;
 
@@ -29,7 +29,7 @@ const Form = styled.form`
 const Label = styled.label`
   margin-bottom: 10px;
   font-size: 16px;
-  color: #666;
+  color: #154734;
   width: 100%; // Ensures the label uses the full width for proper alignment
   display: flex;
   justify-content: center; // Centers the text of the label
@@ -53,7 +53,7 @@ const Button = styled.button`
   padding: 10px 20px;
   font-size: 16px;
   color: white;
-  background-color: #007bff;
+  background-color: #be4300;
   border: none;
   border-radius: 4px;
   cursor: pointer;

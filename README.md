@@ -27,7 +27,7 @@ In a separate terminal, run the front end component.
 
 
 
-## Below is the standard readme content from a default react app, leaving it here just for some basic explaination on raect
+## Below is the standard readme content from a default react app, leaving it here just for some basic explaination on react
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
